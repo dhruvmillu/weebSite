@@ -3,7 +3,7 @@ import { createBrowserRouter,createRoutesFromElements,Route } from 'react-router
 import HomePage from '../pages/homePage'
 
 const Router = createBrowserRouter(createRoutesFromElements(
-    <Route path="/home" element={<HomePage/>}>
+    <Route path="/" element={<HomePage/>}>
         
     </Route>
 ))
