@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(28deg, rgb(145 0 255 / 82%) -35%, transparent 29%),
+    linear-gradient(334deg, rgb(27 0 255 / 82%) -35%, transparent 29%),
+    linear-gradient(200deg, rgb(145 0 255 / 82%) -35%, transparent 29%),
+    linear-gradient(162deg, rgb(27 0 255 / 82%) -35%, transparent 29%), black;
+}

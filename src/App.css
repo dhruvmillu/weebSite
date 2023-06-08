@@ -1,0 +1,35 @@
+.main-grid{
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  grid-template-columns: 100vw;
+  grid-template-areas: "sidebar main";
+
+}
+
+.navbar{
+  grid-area: sidebar;
+}
+
+.nav-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.nav-item > hr{
+  width: 0%;
+  transition: width 0.5s ease-in-out;
+  margin: 5px 0px;
+}
+
+.nav-item:hover > hr{
+  width: 100%;
+  border: 2px solid #581efa;
+  border-radius: 5px;
+}
+
+.selected > hr{
+  width: 100%;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}

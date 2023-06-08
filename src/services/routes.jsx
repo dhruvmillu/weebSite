@@ -3,8 +3,8 @@ import { createBrowserRouter,createRoutesFromElements,Route } from 'react-router
 import HomePage from '../pages/homePage'
 
 const Router = createBrowserRouter(createRoutesFromElements(
-    <Route path="/" element={<HomePage/>}>
-    <Route path="/login" element={<HomePage/>}/>
+    <Route path="/:type" element={<HomePage/>}>
+        
     </Route>
 ))
 
